@@ -1,0 +1,24 @@
+{
+  "name": "webservice-versions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro -p 3006 index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quarterto/webservice-versions.git"
+  },
+  "keywords": [],
+  "author": "Matt Brennan <matt@153.io> (http://blog.153.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quarterto/webservice-versions/issues"
+  },
+  "homepage": "https://github.com/quarterto/webservice-versions#readme",
+  "dependencies": {
+    "micro": "^4.1.1",
+    "node-fetch": "^1.5.3"
+  }
+}
